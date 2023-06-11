@@ -1,0 +1,224 @@
+/* ul, ol {
+    list-style: none;
+} */
+.list {
+    list-style: none;
+}
+.link {
+     text-decoration: none;
+}
+.top-line{
+    /* Top Line */
+    
+    
+        position: absolute;
+        width: 1440px;
+        height: 72px;
+        left: 0px;
+        top: 0px;
+}
+.page-nav{
+    /* Menu Nav */
+    
+    
+        /* Auto layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+    
+        position: absolute;
+        width: 261px;
+        height: 24px;
+        left: 347px;
+        top: 24px;
+}
+.logo {
+    /* Web */
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        /* identical to box height, or 117% */
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+
+.menu-item{
+        width: 48px;
+        height: 24px;
+    
+        /* Body Medium */
+    
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.02em;
+    
+        /* NAVY BLUE */
+    
+        color: #2E2F42;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.adress{
+    position: absolute;
+        width: 153px;
+        height: 24px;
+        left: 940px;
+        top: 24px;
+    /* Body */
+    
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.02em;
+    
+        /* SLATE */
+    
+        color: #434455;
+}
+.phone{
+    /* +11 (000) 111-11-11 */
+    
+    
+        position: absolute;
+        width: 151px;
+        height: 24px;
+        left: 1133px;
+        top: 24px;
+    
+        /* Body */
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.02em;
+    
+        /* SLATE */
+    
+        color: #434455;
+}
+.hero-image{
+    position: absolute;
+        width: 1440px;
+        height: 600px;
+        left: 0px;
+        top: 72px;
+    
+        /* NAVY BLUE */
+    
+        background: #2E2F42;
+}
+.idea{
+    /* Header 1 */
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        /* or 107% */
+    
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+        /* WHITE */
+    
+        color: #FFFFFF;
+}
+.menu {
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.02em;
+    
+        /* NAVY BLUE */
+    
+        color: #2E2F42;
+}
+button{
+    /* Button */
+    
+    
+        /* Auto layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 32px;
+        gap: 10px;
+    
+        position: absolute;
+        width: 169px;
+        height: 56px;
+        left: 635.5px;
+        top: 356px;
+    
+        /* IRIS */
+    
+        background: #4D5AE5;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
+.section1{
+    /* Section 1 */
+    
+    
+        position: absolute;
+        width: 1128px;
+        height: 104px;
+        left: 156px;
+        top: 792px;
+}
+.section3{
+    /* Section 3 */
+    
+    
+        position: absolute;
+        width: 1440px;
+        height: 732px;
+        left: 0px;
+        top: 1548px;
+}
+.footer{
+    * Dark-bg */ position: absolute;
+        width: 1440px;
+        height: 312px;
+        left: 0px;
+        top: 2280px;
+    
+        /* NAVY BLUE */
+    
+        background: #2E2F42;
+}
