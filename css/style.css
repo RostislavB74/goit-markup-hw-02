@@ -29,6 +29,15 @@
   font-weight: 900;
   src: url("../fonts/roboto-v32-cyrillic_latin-900.woff2") format("woff2");
 }
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/raleway-v34-latin-800.woff2') format('woff2');
+}
+
 :root {
   --color-primary-brand: #4d5ae5;
   --color-pressed-state: #404bbf;
@@ -100,6 +109,7 @@ ul {
   /* max-width: 1272px; */
   margin: 0 auto;
   text-align: center;
+  
 }
 /* buttons */
 .button {
@@ -118,12 +128,19 @@ ul {
 /*header*/
 .header-section{
     height: 72px;
-    margin: 0 auto;
+    margin: 24px auto;
+    
 }
 
 .header-menu{
     display: flex;
     justify-content:space-around;
+    align-items: center;
+    
+}
+.centered{
+    display: flex;
+    align-items: center;
 }
 .header-nav {
   display: flex;
@@ -145,7 +162,11 @@ ul {
   background-color: var(--color-dark);
   height: 600px;
   text-align: center;
-  margin-bottom: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }
 .idea {
     width: 100%;
