@@ -104,8 +104,6 @@ body {
 }
 
 /*Advantage*/
-.advantage-section {
-}
 
 .advantage-title {
   color: var(--color-white-background);
@@ -203,24 +201,27 @@ body {
 .portfolio-title {
   color: var(--color-white-background);
 }
-
+.portfolio-project {
+  /* text-decoration: none; */
+  color: var(--color-dark);
+}
 .portfolio-project-directions {
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--color-dark)
-  text-underline-position: from-font;
+  color: var(--color-dark);
+  text-decoration: none;
   text-decoration-skip-ink: none;
 }
 
 .portfolio-project-teg {
-font-family: 'Roboto' sans-serif;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
-text-decoration-skip-ink: none;
-color: var(--color-body-text);
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration-skip-ink: none;
+  color: var(--color-body-text);
 }
