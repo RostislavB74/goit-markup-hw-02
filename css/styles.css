@@ -57,26 +57,27 @@ body {
 }
 
 .menu-link:hover,
-.menu-link:focus{
+.menu-link:focus {
   color: var(--color-pressed-state);
   text-decoration: underline;
 }
+
 .address-header {
   font-style: normal;
   font-weight: 400;
 }
 
-.contact-email,
-.contact-phone {
+.contact {
   color: var(--color-body-text);
 }
 
 
 
-.hero-section{
+.hero-section {
   background-color: var(--color-dark);
   text-align: center;
 }
+
 .idea {
   font-size: 56px;
   font-weight: 700;
@@ -100,61 +101,81 @@ body {
 .modal-btn:hover {
   color: var(--color-pressed-state);
   background-color: var(--color-pressed-state);
-    cursor: pointer;
+  cursor: pointer;
 }
-/*Advantage*/
-.advantage-section{
 
-}
-.advantage-title{
+/*Advantage*/
+.advantage-section {}
+
+.advantage-title {
   color: var(--color-white-background);
 }
 
 /*OUR WORKS*/
-.our-works-section{
+.our-works-section {
   background-color: var(--color-light);
 }
-.our-works-title{
-    font-family: Roboto;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--color-dark);
+
+.our-works-title {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-dark);
 }
 
-.advantage-item{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color-dark);
+.advantage-item {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
 }
+
 /*OUR TEAM*/
-.personalities-section{
+.personalities-section {
   background-color: var(--color-light);
 
 }
-.personalities-item-title{
+
+.personalities-title {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-dark);
+}
+.personalities-item{
+  background-color: var(--color-white-background);
+}
+.personalities-item-title {
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: var(--color-dark)
 }
 
-.personalities-position{
+.personalities-position {
   font-size: 16px;
 }
+
 /*FOOTER*/
-.footer-section{
+.footer-section {
   background-color: var(--color-dark);
   color: var(--color-light)
 }
+
 .logo-half-footer {
   color: var(--color-light);
 }
