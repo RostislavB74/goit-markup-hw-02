@@ -11,6 +11,7 @@
   --color-hero-background: #2e2f42;
   --color-white-background: #ffffff;
   --color-modal-background: #fcfcfc;
+
 }
 
 .list {
@@ -19,15 +20,17 @@
 
 .link {
   text-decoration: none;
+  cursor: pointer;
 
 }
-body{
+
+body {
   font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-body-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-body-text);
 }
 
 .page-header {
@@ -43,32 +46,75 @@ body{
   text-transform: uppercase;
   color: var(--color-primary-brand);
 }
-.logo-half{
-  color: var(--color-dark);
-}
-.menu{
+
+.logo-half-header {
   color: var(--color-dark);
 }
 
+.menu-link {
+  color: var(--color-dark);
+}
+
+.menu-link:hover,
+.menu-link:focus{
+  color: var(--color-pressed-state);
+  text-decoration: underline;
+}
 address {
   font-style: normal;
   font-weight: 400;
+}
+
+.contact-email,
+.contact-phone {
+  color: var(--color-body-text);
+}
+
+.contact-phone:hover,
+.contact-phone:focus,
+.contact-email:hover,
+.contact-email:focus {
   color: var(--color-pressed-state);
 }
 
-.idea{
+.idea {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  color: var(--color-white-background)
 }
 
-.modal-btn{
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    color: var(--color-white-background);
+.modal-btn {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--color-white-background);
+  background-color: var(--color-primary-brand);
+  cursor: pointer;
 }
+
 .modal-btn:focus,
-.modal-btn:hover{
+.modal-btn:hover {
   color: var(--color-pressed-state);
+  cursor: pointer;
+
+}
+/*Advantage*/
+.advantage-title{
+  color: var(--color-white-background);
+}
+
+.advantage-item{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--color-dark);
+}
+
+.footer-section{
+  background-color: var(--color-dark);
+  color: var(--color-light)
+}
+.logo-half-footer {
+  color: var(--color-light);
 }
