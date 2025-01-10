@@ -107,14 +107,28 @@ body {
 
 }
 /*Advantage*/
+.advantage-section{
+  
+}
 .advantage-title{
   color: var(--color-white-background);
+}
+
+/*OUR WORKS*/
+.our-works-title{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .advantage-item{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--color-dark);
 }
 
