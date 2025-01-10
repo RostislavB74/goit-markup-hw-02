@@ -11,7 +11,6 @@
   --color-hero-background: #2e2f42;
   --color-white-background: #ffffff;
   --color-modal-background: #fcfcfc;
-
 }
 
 .list {
@@ -21,11 +20,10 @@
 .link {
   text-decoration: none;
   cursor: pointer;
-
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -40,7 +38,7 @@ body {
 }
 
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -84,11 +82,11 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: var(--color-white-background)
+  color: var(--color-white-background);
 }
 
 .modal-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -106,7 +104,8 @@ body {
 }
 
 /*Advantage*/
-.advantage-section {}
+.advantage-section {
+}
 
 .advantage-title {
   color: var(--color-white-background);
@@ -139,7 +138,6 @@ body {
 /*OUR TEAM*/
 .personalities-section {
   background-color: var(--color-light);
-
 }
 
 .personalities-title {
@@ -165,7 +163,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: var(--color-dark)
+  color: var(--color-dark);
 }
 
 .personalities-position {
@@ -175,7 +173,7 @@ body {
 /*FOOTER*/
 .footer-section {
   background-color: var(--color-dark);
-  color: var(--color-light)
+  color: var(--color-light);
 }
 
 .logo-half-footer {
@@ -184,15 +182,15 @@ body {
 
 /*PORTFOLIO*/
 .portfolio-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   text-decoration-skip-ink: none;
-  color:var(--color-primary-brand);
-  background-color: var(--color-light); 
+  color: var(--color-primary-brand);
+  background-color: var(--color-light);
   cursor: pointer;
 }
 
@@ -202,10 +200,27 @@ body {
   background-color: var(--color-pressed-state);
   cursor: pointer;
 }
-.portfolio-title{
+.portfolio-title {
   color: var(--color-white-background);
 }
 
-.portfolio-project-directions{
-  color: var(--color-white-background);
+.portfolio-project-directions {
+  font-family: 'Roboto',sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark)
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.portfolio-project-description {
+font-family: 'Roboto' sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-decoration-skip-ink: none;
+color: var(--color-body-text);
 }
