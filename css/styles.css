@@ -31,6 +31,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-body-text);
+  background-color: var();
 }
 
 .page-header {
@@ -60,7 +61,7 @@ body {
   color: var(--color-pressed-state);
   text-decoration: underline;
 }
-address {
+.address-header {
   font-style: normal;
   font-weight: 400;
 }
@@ -77,6 +78,10 @@ address {
   color: var(--color-pressed-state);
 }
 
+.hero-section{
+  background-color: var(--color-dark);
+  text-align: center;
+}
 .idea {
   font-size: 56px;
   font-weight: 700;
@@ -86,7 +91,9 @@ address {
 }
 
 .modal-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  font-size: 16px;
   letter-spacing: 0.04em;
   color: var(--color-white-background);
   background-color: var(--color-primary-brand);
