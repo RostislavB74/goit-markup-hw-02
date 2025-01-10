@@ -34,6 +34,7 @@ body {
   background-color: var(--color-white-background);
 }
 
+/*HEADER*/
 .page-header {
   font-weight: 500;
 }
@@ -71,7 +72,7 @@ body {
   color: var(--color-body-text);
 }
 
-
+/*HERO*/
 
 .hero-section {
   background-color: var(--color-dark);
@@ -151,9 +152,11 @@ body {
   text-transform: capitalize;
   color: var(--color-dark);
 }
-.personalities-item{
+
+.personalities-item {
   background-color: var(--color-white-background);
 }
+
 .personalities-item-title {
   font-family: Roboto;
   font-size: 20px;
@@ -177,4 +180,28 @@ body {
 
 .logo-half-footer {
   color: var(--color-light);
+}
+
+/*PORTFOLIO*/
+.portfolio-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  color:var(--color-primary-brand);
+  background-color: var(--color-light); 
+  cursor: pointer;
+}
+
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  color: var(--color-white-background);
+  background-color: var(--color-pressed-state);
+  cursor: pointer;
+}
+.portfolio-title{
+  color: var(--color-white-background);
 }
