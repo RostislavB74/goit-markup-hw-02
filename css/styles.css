@@ -31,7 +31,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-body-text);
-  background-color: var();
+  background-color: var(--color-white-background);
 }
 
 .page-header {
@@ -71,12 +71,7 @@ body {
   color: var(--color-body-text);
 }
 
-.contact-phone:hover,
-.contact-phone:focus,
-.contact-email:hover,
-.contact-email:focus {
-  color: var(--color-pressed-state);
-}
+
 
 .hero-section{
   background-color: var(--color-dark);
@@ -94,13 +89,17 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-white-background);
   background-color: var(--color-primary-brand);
   cursor: pointer;
 }
 
-.modal-btn:focus,
+.modal-btn:focus {
+  color: var(--color-pressed-state);
+    cursor: pointer;
+}
 .modal-btn:hover {
   color: var(--color-pressed-state);
   cursor: pointer;
@@ -108,20 +107,26 @@ body {
 }
 /*Advantage*/
 .advantage-section{
-  
+
 }
 .advantage-title{
   color: var(--color-white-background);
 }
 
 /*OUR WORKS*/
+.our-works-section{
+  background-color: var(--color-light);
+}
 .our-works-title{
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+    color: var(--color-dark);
 }
 
 .advantage-item{
